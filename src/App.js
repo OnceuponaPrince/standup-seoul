@@ -60,15 +60,11 @@ render() {
       <div id="bee"> 
   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/160783/astroboy.png"  alt="Astroboy Mouse Icon"/>
 </div>
-        {/*<figure>
-        <img src={Hero} alt="Asian Girl piggy-backing black friend and enjoying themselves" width="1440" height="820" />
-        <figcaption><img src={Coming} width="1190" height="174" alt="Open Mics Coming Soon"/></figcaption>
-        </figure>*/}
         <iframe title="Graphic" src="./paper/examples/Paperjs.org/NyanRainbow.html" width="1920" height="1080" frameBorder="0"></iframe>
       </main>
       <footer className="footer-content">
         <section>
-          <img src={FooterLogo} alt="Stand Up Seoul Company Logo" width="531" height="380"/>
+          <img src={FooterLogo} alt="Stand Up Seoul Company Logo" width="531" height="380" className="footer-logo"/>
         </section>
         <section className="contact-form">
           <img src={Help} alt="Contact Welcome Text - How can we help?" width="309" height="55"/>

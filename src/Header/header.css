@@ -73,12 +73,7 @@
     border-radius: 100px;
     width: 33.33333%;
 }
-.main-nav ul li:last-child{
-    border-right: none;
-}
-.main-nav ul li:first-child{
-    border-left: none;
-}
+
 .main-nav ul li:first-child:hover{
     background-color: #ff6600;
 }
@@ -122,7 +117,7 @@
     .main-logo{
         width: 40%;
     }
-    .main-nav{
+    .main-nav ul{
         background-color: #000;
     }
 }
