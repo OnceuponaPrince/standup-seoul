@@ -1,0 +1,130 @@
+.App-header{
+    display: flex;
+    flex-direction: row;
+    background-color: #fcf4e3;
+    align-items: center;
+    padding: 0 2.5rem;
+    margin: 0;
+    z-index: 20;
+    width: 100%;
+    height: 4.1rem;
+    position: relative;
+}
+.main-nav.active{
+    top: 4rem;
+    opacity: 1;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+.hamburger {
+    display: block;
+    cursor: pointer;
+    width: max-content;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.main-nav{
+    position: fixed;
+        top: -100px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: all 0.3s ease-in;
+            color: #fff;
+            z-index: -10;
+            opacity: 0;
+            display: flex;
+}
+.main-nav ul li{
+    margin: 0;
+    padding: 1.5rem 0;
+    padding-right: 0.3rem;
+    cursor: pointer !important;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 33.33333%;
+}
+.main-nav ul li:last-child{
+    border-right: none;
+}
+.main-nav ul li:first-child{
+    border-left: none;
+}
+.main-nav ul li:first-child:hover{
+    background-color: #ff6600;
+}
+.main-nav ul li:hover{
+    background-color: #bce4f0;
+}
+.main-nav ul li:last-child:hover{
+    background-color: #88b324;
+}
+.main-logo{
+    margin: 0.15rem 0 0rem -2.5rem;
+    padding: 0;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 8;
+}
+.main-logo img{
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 760px){
+    .main-nav ul{
+        flex-direction: column;
+    }
+    .main-nav ul li{
+        width: 100%;
+        padding: 5rem 0;
+    }
+}
+@media all and (max-width: 610px){
+    .main-logo img{
+        width: 100%;
+        height: auto;
+
+    }
+    .main-logo{
+        width: 40%;
+    }
+}
+@media all and (max-width: 610px){
+    .main-logo img{
+       margin-left: 15px;
+    }
+}
