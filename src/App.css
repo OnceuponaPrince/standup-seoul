@@ -13,26 +13,7 @@ main iframe{
     width: 100vw !important;
     margin: 0;
     padding: 0;
-}
-main figure{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-align: center;
-}
-main figure img{
-    height: auto;
-    width: 100%;
-}
-main figure figcaption{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-main figure figcaption img{
-    height: auto;
-    width: 100%;
+    border: none;
 }
 .footer-content{
     background-image: url('./assets/wave_footer.png');

@@ -64,7 +64,7 @@ render() {
         <img src={Hero} alt="Asian Girl piggy-backing black friend and enjoying themselves" width="1440" height="820" />
         <figcaption><img src={Coming} width="1190" height="174" alt="Open Mics Coming Soon"/></figcaption>
         </figure>*/}
-        <iframe title="Graphic" src="./paper/examples/Paperjs.org/NyanRainbow.html" width="1920" height="1080"></iframe>
+        <iframe title="Graphic" src="./paper/examples/Paperjs.org/NyanRainbow.html" width="1920" height="1080" frameBorder="0"></iframe>
       </main>
       <footer className="footer-content">
         <section>
