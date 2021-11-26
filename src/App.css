@@ -124,7 +124,7 @@ input[type=submit]{
         width: 18rem;
     }
 }
-@media all and (max-width: 350px){
+@media all and (max-width: 390px){
     .footer-content{
         padding: 3rem 5rem;
     }

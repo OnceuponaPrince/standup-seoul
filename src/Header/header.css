@@ -122,6 +122,9 @@
     .main-logo{
         width: 40%;
     }
+    .main-nav{
+        background-color: #000;
+    }
 }
 @media all and (max-width: 610px){
     .main-logo img{
