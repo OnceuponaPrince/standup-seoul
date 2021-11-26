@@ -119,6 +119,7 @@
     }
     .main-nav ul{
         background-color: #000;
+        padding: 0 0.3rem 0.3rem !important;
     }
 }
 @media all and (max-width: 610px){

@@ -61,7 +61,7 @@ export default class Header extends React.Component {
             </div>
               <nav className="main-nav">
             <ul>
-            <li>ABOUT</li>
+            <li>ABOUT (COMING SOON)</li>
             <li>SHOWS (COMING SOON)</li>
             <li>SHOP (COMING SOON)</li>
           </ul>
